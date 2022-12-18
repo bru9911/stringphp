@@ -13,4 +13,13 @@ class A {
 var_export((array) new A());
 ?>
 
+O exemplo acima irá imprimir:
+
+array (
+  '' . "\0" . 'A' . "\0" . 'B' => NULL,
+  '' . "\0" . '*' . "\0" . 'C' => NULL,
+  'D' => NULL,
+  1 => NULL,
+)
+
 https://www.php.net/manual/pt_BR/language.types.array.php#example-58
